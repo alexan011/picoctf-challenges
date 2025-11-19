@@ -3,7 +3,7 @@ import json
 
 def main():
     # During docker build, FLAG may not be set
-    flag_env = os.environ.get("FLAG", "picoCTF{placeholder_flag_for_build}")
+    flag_env = os.environ.get("FLAG", "temporary_flag")
 
     # Write the flag to /challenge/flag
     with open("/challenge/flag", "w") as f:
