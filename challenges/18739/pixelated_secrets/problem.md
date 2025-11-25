@@ -13,7 +13,7 @@ I need your help to inspect it for me.
 
 ## Details
 
-Download the image here: [ctf_challenge_image.jpg](/files/ctf_challenge_image.jpg)
+Download the image here: {{url_for("ctf_challenge_image.jpg", "ctf_challenge_image")}}
 
 ## Hints
 - Sometimes images contain more than they seem.
